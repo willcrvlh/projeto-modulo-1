@@ -14,29 +14,29 @@ header{
     text-align: center;
     font-size: 1cm;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+    color: yellow;
     margin-top: 60px;
 }
 
 button{
     width: 300px;
     height: 40px;
-    background-color: pink;
+    background-color: skyblue;
     border-radius: 10px;
     font-size: 0.8cm;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 130px;
+    margin-top: 80px;
 }
 
 button:hover{
     width: 310px;
     height: 50px;
-    background-color: skyblue;
+    background-color: blue;
     color: white;
 }
 
 body{
-    background-image: url(./tp2.jpg);
+    background-image: url(./rafiki2.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 140%;
 }
