@@ -11,16 +11,17 @@ body{
 }
 
 h1{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'WaltographRegular';
     font-size: 2cm;
-    color: azure;
-    text-align: center;
+    color : azure;
+    text-align : center;
 }
 p{
-    font-family: 'Updock', cursive;
-    font-size: 3cm;
+    font-family: 'WaltographRegular';
+    font-size: 500%;
     color: azure;
     text-align: center;
+    padding: 1%;
 }
 button{
     display: flex;

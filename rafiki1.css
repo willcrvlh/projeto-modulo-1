@@ -7,15 +7,16 @@ header{
     text-align: center;
     font-family: 'Square Peg', cursive;
     font-size: 1cm;
-    color: skyblue;
+    color: yellowgreen;
 }
 
 .pergunta{
     text-align: center;
-    font-size: 1cm;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: yellow;
-    margin-top: 60px;
+    font-size: 250%;
+    font-family: 'WaltographRegular';
+    color: blue;
+    padding: 1%;
+
 }
 
 button{
@@ -25,13 +26,13 @@ button{
     border-radius: 10px;
     font-size: 0.8cm;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 80px;
+
 }
 
 button:hover{
     width: 310px;
     height: 50px;
-    background-color: blue;
+    background-color: tomato;
     color: white;
 }
 

@@ -23,7 +23,7 @@ function nala1() {
         
     }
     if(vidas==0){
-        alert("VOCe PErfeu mane")
+        alert("Você perdeu!!!")
         location.assign("gameover.html")
     }
 }

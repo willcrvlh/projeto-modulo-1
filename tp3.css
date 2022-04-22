@@ -12,10 +12,10 @@ header{
 
 .pergunta{
     text-align: center;
-    font-size: 1cm;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 270%;
+    font-family: 'WaltographRegular';
     color: white;
-    margin-top: 60px;
+
 }
 
 button{
@@ -25,7 +25,7 @@ button{
     border-radius: 10px;
     font-size: 0.8cm;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 110px;
+    margin-top: 5%;
 }
 
 button:hover{

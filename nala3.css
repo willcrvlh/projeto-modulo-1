@@ -6,14 +6,14 @@
 header{
     text-align: center;
     font-family: 'Square Peg', cursive;
-    font-size: 1cm;
+    font-size: 250%;
     color: black;
 }
 
 .pergunta{
     text-align: center;
-    font-family: 'square peg';
-    font-size: 1.5cm;
+    font-family: 'WaltographRegular';
+    font-size: 300%;
     margin-top: 10px;
 }
 
@@ -24,8 +24,8 @@ body{
 }
 .alternativas{
     text-align: center;
-    font-size: 1.5cm;
-    font-family:'square peg';
+    font-size: 1.2cm;
+    font-family:'WaltographRegular';
     margin-top: 20px;
     color: red
 }

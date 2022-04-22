@@ -2,25 +2,24 @@
     padding: 0;
     margin: 0;
     border: 0; 
+}
+
+header {
+    text-align: center;
+    font-size: 0.6cm;
+    color: rgba(236, 233, 233, 0.801);
+    height: 7vh;
     font-family: 'WaltographRegular';
     font-weight: normal;
     font-style: normal;
 }
 
-header {
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    font-size: larger;
-    color: rgba(236, 233, 233, 0.801);
-    height: 10vh;
-}
-
 .explicacaodojogo {
-    font-family: 'Courier New', Courier, monospace;
-    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgba(236, 233, 233, 0.781);
-    width: 80%;
-    margin: auto;
+    align-items: center;
+    padding: 1%;
+    font-size: 0.5cm ;
 }
 
 body {
@@ -34,6 +33,7 @@ body {
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -79,6 +79,7 @@ button {
     align-items: center;
     font-size: 0.6cm;
     text-decoration: none;
+    cursor: pointer;
 }
 
 ul li {

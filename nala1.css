@@ -6,15 +6,15 @@
 header{
     text-align: center;
     font-family: 'Square Peg', cursive;
-    font-size: 1cm;
+    font-size: 70%;
     color: white;
 }
 
 body{
     background-image: url(./fase1.jpg);
     text-align: center;
-    font-family: 'Square Peg';
-    font-size: 1.5cm;
+    font-family: 'WaltographRegular';
+    font-size: 350%;
     color: red;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -24,7 +24,7 @@ button{
     height: 40px;
     background-color: blueviolet;
     border-radius: 10px;
-    font-size: 0.8cm;
+    font-size: 60%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 

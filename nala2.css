@@ -5,15 +5,16 @@
 }
 header{
     text-align: center;
-    font-family: 'Square Peg', cursive;
-    font-size: 1cm;
+    font-family: 'Square Peg', 'cursive';
+    font-size: 290%;
     color: white;
 }
 .pergunta{
     text-align: center;
-    font-family: 'Square Peg';
-    font-size: 1cm;
+    font-family: 'WaltographRegular';
+    font-size: 250%;
     color: white;
+    padding: 1%;
 }
 body{
     background-image: url(./fase2nala.jpg);

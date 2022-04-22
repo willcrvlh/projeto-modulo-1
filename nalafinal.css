@@ -2,7 +2,7 @@ header{
     text-align: center;
     color: gold;
     font-size: 1cm;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'WaltographRegular';
 }
 
 body{
@@ -18,11 +18,12 @@ button{
     align-items: center;
     font-size: 30px;
     background-color: gold;
+    border-radius: 10px;
 }
 
 .fim{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 0.8cm;
+    font-family: 'WaltographRegular';
+    font-size: 450%;
     color: black;
     text-align: center;
 }
