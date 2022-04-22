@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogomod1</title>
+    <title>Pagina inicial</title>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/waltograph-disney" type="text/css"/>
 </head>
-
 <body>
     <header class="cabecalho">
         <h1>Aonde está o rei?</h1>
     </header>
+    <main id="inicio" style=" display: none">
     <p class="explicacaodojogo">Mufasa ,o rei da floresta, é morto pelo seu irmão Scar com a tentativa de assumir o
         trono, e o próximo a ser morto por Scar e Simba ,filho de Mufasa, o próximo herdeiro do trono. Porém, Simba
         descobre a tentativa e foge então Scar assume o trono e destroi o imperio. Portanto, para que o império seja
@@ -73,10 +74,14 @@
     </div>
     <script src="./index.js"></script>
     <audio src="./audiorl.mp3" autoplay ></audio>
+    </main>
+    <main id="prejogo" class="prejogo1">
+        <h2 class="explicacaodojogo">Vamos iniciar agora a jornada para encontrar o rei perdido. Como você quer começar a jornada?</h2>
+        <button id="comecar" onclick="nomeDoUsuario()">Começar</button>
+    </main>
     <footer>
         <p>Todos os direitos reservados 2022 © Resilia educação</p>
         <p>Projeto para fins edicacionais</p>
     </footer>
 </body>
-
 </html>
