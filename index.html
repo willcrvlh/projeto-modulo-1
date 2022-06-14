@@ -6,82 +6,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina inicial</title>
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/waltograph-disney" type="text/css"/>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/waltograph-disney" type="text/css" />
+    <audio src="./html/audiorl.mp3" autoplay></audio>
 </head>
+
 <body>
-    <header class="cabecalho">
-        <h1>Aonde está o rei?</h1>
-    </header>
-    <main id="inicio" style=" display: none">
-    <p class="explicacaodojogo">Mufasa ,o rei da floresta, é morto pelo seu irmão Scar com a tentativa de assumir o
-        trono, e o próximo a ser morto por Scar e Simba ,filho de Mufasa, o próximo herdeiro do trono. Porém, Simba
-        descobre a tentativa e foge então Scar assume o trono e destroi o imperio. Portanto, para que o império seja
-        reconstruido, alguns corajosos vão a procura por Simba sabendo de todos os possíveis riscos que poderão passar.
-        Logo, quem você escolhe para tentar encontrar simba e reconstruir o império?</p>
-    
-        <!--AQUI COMEÇA OS PERSONAGENS-->
+    <div class="container">
+        <header class="cabecalho">
+            <h1>Aonde está o rei?</h1>
+        </header>
+        <main id="inicio" style="display: none">
+            <p class="explicacaodojogo">Mufasa ,o rei da floresta, é morto pelo seu irmão Scar com a tentativa de
+                assumir o
+                trono, e o próximo a ser morto por Scar e Simba ,filho de Mufasa, o próximo herdeiro do trono. Porém,
+                Simba
+                descobre a tentativa e foge então Scar assume o trono e destroi o imperio. Portanto, para que o império
+                seja
+                reconstruido, alguns corajosos vão a procura por Simba sabendo de todos os possíveis riscos que poderão
+                passar.
+                Logo, quem você escolhe para tentar encontrar simba e reconstruir o império?</p>
 
-    <div class="personagens">
+            <!--AQUI COMEÇA OS PERSONAGENS-->
 
-        <!--COMEÇA NALA-->
+            <div class="personagens">
 
-        <div id="personagem1">
-            <h2>Nala</h2>
-            <div class="container">
-                <img src="./nalam1.webp" alt="Nala personagem do filme rei leão">
+                <!--COMEÇA NALA-->
+
+                <div id="personagem1">
+                    <h2>Nala</h2>
+                    <div class="container">
+                        <img src="./img/nalam1.webp" alt="Nala personagem do filme rei leão">
+                    </div>
+                    <h3>Qualidades e Defeitos</h3>
+                    <ul>
+                        <li>Agilidade</li>
+                        <li>Força</li>
+                        <li>Sente muita fome</li>
+                    </ul>
+                    <button><a href="../m1projeto/html/nala1.html">Selecionar</a></button>
+                </div>
+
+                <!--TIMÃO E PUMBA-->
+
+                <div id="personagem2">
+                    <h2>Timão e Pumba</h2>
+                    <div class="container">
+                        <img src="./img/tmm1.jpg" alt="Timão e Pumba personagens do desenho rei leão">
+                    </div>
+                    <h3>Qualidades e Defeitos</h3>
+                    <ul>
+                        <li>Inteligência</li>
+                        <li>Têm baixa estatura e podem se esconder com <br> facilidade</li>
+                        <li>Podem ser engolidos por animais maiores</li>
+                    </ul>
+                    <button><a href="./html/tp.html">Selecionar</a></button>
+                </div>
+
+                <!--COMEÇA RAFIKI-->
+
+                <div id="personagem3">
+                    <h2>Rafiki</h2>
+                    <div class="container">
+                        <img src="./img/rafikim1.jpg" alt="rafiki personagem da animação da disney rei leão">
+                    </div>
+                    <h3>Qualidades e Defeitos</h3>
+                    <ul>
+                        <li>É o animal mais sábio de toda a floresta</li>
+                        <li>Tem percepção invrivel</li>
+                        <li>Por ser muito velho,não consegue camihar por <br> muitas horas seguidas</li>
+                    </ul>
+                    <button><a href="./html/rafiki.html">Selecionar</a></button>
+                </div>
             </div>
-            <h3>Qualidades e Defeitos</h3>
-            <ul>
-                <li>Agilidade</li>
-                <li>Força</li>
-                <li>Sente muita fome</li>
-            </ul>
-            <button><a href="./nala.html">Selecionar</a></button>
-        </div>
-
-        <!--TIMÃO E PUMBA-->
-
-        <div id="personagem2">
-            <h2>Timão e Pumba</h2>
-            <div class="container">
-                <img src="./tmm1.jpg" alt="Timão e Pumba personagens do desenho rei leão">
-            </div>
-            <h3>Qualidades e Defeitos</h3>
-            <ul>
-                <li>Inteligência</li>
-                <li>Têm baixa estatura e podem se esconder com <br> facilidade</li>
-                <li>Podem ser engolidos por animais maiores</li>
-            </ul>
-            <button><a href="./tp.html">Selecionar</a></button>
-        </div>
-
-        <!--COMEÇA RAFIKI-->
-
-        <div id="personagem3">
-            <h2>Rafiki</h2>
-            <div class="container">
-                <img src="./rafikim1.jpg" alt="rafiki personagem da animação da disney rei leão">
-            </div>
-            <h3>Qualidades e Defeitos</h3>
-            <ul>
-                <li>É o animal mais sábio de toda a floresta</li>
-                <li>Tem percepção invrivel</li>
-                <li>Por ser muito velho,não consegue camihar por <br> muitas horas seguidas</li>
-            </ul>
-            <button><a href="./rafiki.html">Selecionar</a></button>
-        </div>
+            <script src="./js/index.js"></script>
+        </main>
+        <main id="prejogo" class="prejogo1">
+            <h2 class="explicacaodojogo">Vamos iniciar agora a jornada para encontrar o rei perdido. Como você quer
+                começar a jornada?</h2>
+            <button id="comecar" onclick="nomeDoUsuario()">Começar</button>
+        </main>
+        <footer>
+            <p>Todos os direitos reservados 2022 © Resilia educação</p>
+            <p>Projeto para fins edicacionais</p>
+        </footer>
     </div>
-    <script src="./index.js"></script>
-    <audio src="./audiorl.mp3" autoplay ></audio>
-    </main>
-    <main id="prejogo" class="prejogo1">
-        <h2 class="explicacaodojogo">Vamos iniciar agora a jornada para encontrar o rei perdido. Como você quer começar a jornada?</h2>
-        <button id="comecar" onclick="nomeDoUsuario()">Começar</button>
-    </main>
-    <footer>
-        <p>Todos os direitos reservados 2022 © Resilia educação</p>
-        <p>Projeto para fins edicacionais</p>
-    </footer>
 </body>
+
 </html>
